@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Softwarica"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="College of IT and E-commerce"
+        android:gravity="center"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etusername"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpassword"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Login"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnlogin"
+
+        />
+
+</LinearLayout>
