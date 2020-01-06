@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:background="#dcdcde"
     android:orientation="vertical"
+    android:layout_marginBottom="15dp"
     tools:context=".StudentsActivity">
 
     <ImageView
