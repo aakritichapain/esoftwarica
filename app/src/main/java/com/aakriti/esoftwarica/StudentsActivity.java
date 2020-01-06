@@ -35,7 +35,7 @@ public class StudentsActivity extends RecyclerView.Adapter<StudentsActivity.stud
         return  new studentViewHolder(view);
 
     }
-
+//
     @Override
     public void onBindViewHolder(@NonNull studentViewHolder holder, final int position) {
         final Students students=studentsList.get(position);
